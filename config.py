@@ -1,0 +1,13 @@
+import os
+
+# for discord
+DISCORD_BOT_TOKEN = os.environ.get('DISCORD_BOT_TOKEN')
+DISCORD_BOT_CHANNEL_ID = os.environ.get('DISCORD_BOT_CHANNEL_ID')
+
+# print(DISCORD_BOT_CHANNEL_ID)
+
+
+#for google sheets
+GOOGLE_SHEETS_TOKEN = os.environ.get('GOOGLE_SHEETS_TOKEN')
+GOOGLE_SHEETS_SHARED_LINK = os.environ.get('GOOGLE_SHEETS_SHARED_LINK')
+GOOGLE_SHEETS_WORK_SHEET = os.environ.get('GOOGLE_SHEETS_WORK_SHEET')

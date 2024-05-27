@@ -1,0 +1,12 @@
+__pycache__
+.vscode
+*.json
+
+# venv
+/Include
+/Lib
+/Scripts
+pyvenv.cfg
+
+# env
+.env
